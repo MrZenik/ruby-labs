@@ -20,6 +20,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 header.main {
   text-align: center; // center on mobile
   @media (min-width: 30em) {
@@ -59,7 +60,7 @@ header.main {
 
   nav {
     padding-bottom: 1em;
-    background: #141;
+    background: khaki;
     text-align: center;  // mobile has centered nav
     @media (min-width: 30em) {
       text-align: left; // desktop nav is left-aligned
@@ -93,7 +94,7 @@ header.main {
         text-transform: uppercase;
         letter-spacing: 0.354em;
         a {
-          color: #bfb;
+          color: green;
           text-decoration: none;
         }
         a:hover {

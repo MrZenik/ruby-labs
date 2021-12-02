@@ -35,16 +35,26 @@
     }
   }
 
-  input[type="submit"] {
-    background-color: #881;
+  .buy input[type="submit"]{
+    background-color: lawngreen;
     border-radius: 0.354em;
-    border: solid thin #441;
+    border: solid thin darkgreen;
     color: white;
     font-size: 1em;
     padding: 0.354em 1em;
   }
-
-  input[type="submit"]:hover {
-    background-color: #992;
+  .buy input[type="submit"]:hover {
+    background-color: lime;
+  }
+  .clear input[type="submit"]{
+    background-color: darkred;
+    border-radius: 0.354em;
+    border: solid thin darkred;
+    color: white;
+    font-size: 1em;
+    padding: 0.354em 1em;
+  }
+  .clear input[type="submit"]:hover {
+    background-color: orangered;
   }
 }
