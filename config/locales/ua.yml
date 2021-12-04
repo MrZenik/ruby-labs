@@ -1,0 +1,61 @@
+ua:
+
+  layouts:
+    application:
+      title: "Магазин цукерок"
+      home: "Додому"
+      questions: "Питання"
+      news: "Новини"
+      contact: "Контакти"
+
+  store:
+    index:
+      title_html: "Каталог"
+      add_html: "Додати в корзину"
+
+  carts:
+    cart:
+      title: "Ваша корзина:"
+      empty: "Спорожнити"
+      checkout: "Купити"
+
+  number:
+    currency:
+      format:
+        unit:      "₴"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format:    "%u%n"
+
+  errors:
+    template:
+      body:        "Проблеми з наступиними полями:"
+      header:
+        one:       "1 проблема з %{model}"
+        other:     "%{count} проблем з %{model}"
+
+  orders:
+    new:
+      legend: "Введіть:"
+    form:
+      name: "Ім'я"
+      address_html: "Адреса"
+      email: "E-mail"
+      pay_type: "Заплатити за допомогою"
+      pay_prompt_html: "Виберіть метод оплати"
+      submit: "Замовити"
+      pay_types:
+        check: "Чек"
+        credit_card: "Кредитна карта"
+        purchase_order: "Замовлення на закупівлю"
+      check_pay_type:
+        routing_number: "Routing #"
+        account_number: "Account #"
+      credit_card_pay_type:
+        cc_number: "CC #"
+        expiration_date: "Expiry"
+      purchase_order_pay_type:
+        po_number: "PO #"
+
+  thanks: "Щиро дякуємо за ваше замовлення!"
